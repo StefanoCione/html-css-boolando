@@ -19,3 +19,30 @@
 .border {
     border: 2px dashed black;
 }
+
+/* header */
+header {
+    color: white;
+    background-color: brown;
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar > * {
+    flex-basis: 20%;
+    padding: 10px 0;
+    background-color: blue;
+}
+
+.navbar-logo {
+     flex-grow: 1;
+     text-align: center;
+}
+
+.navbar-icon {
+    text-align: right;
+}
