@@ -8,8 +8,9 @@
 /* Utils */
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 80%;
+    margin: auto;
+    align-items: center;
 }
 
 .flex {
@@ -20,19 +21,13 @@
     border: 2px dashed black;
 }
 
-/* header */
-header {
-    color: white;
-    background-color: brown;
-}
-
-.navbar {
-    height: 80px;
-    display: flex;
-    align-items: center;
+.space-between {
     justify-content: space-between;
 }
-.navbar > * {
+
+/* !header */
+
+/* .navbar > * {
     flex-basis: 20%;
     padding: 10px 0;
     background-color: blue;
@@ -45,4 +40,23 @@ header {
 
 .navbar-icon {
     text-align: right;
+} */
+header {
+    background-color: #FF6900;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.flex li {
+    padding: 0 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
