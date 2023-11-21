@@ -125,6 +125,7 @@ main{
     top: 2%;
     right: 5%;
     font-size: 3rem;
+    color: black;
 }
 
 .heart:hover {
