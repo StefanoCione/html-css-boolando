@@ -70,3 +70,72 @@ a {
 .icon {
     color: white;
 }
+
+/* !Main */
+main{
+    padding-top: 90px;
+}
+
+.col{
+    flex-basis: calc(100% / 3);
+    padding: 1%;
+}
+
+.item{
+    position: relative;
+}
+
+.item:hover .item-image-hover {
+    display: inline-block;
+}
+
+.item img{
+    width: 100%;
+}
+
+.price{
+    color: red;
+    font-weight: bold;
+}
+
+.label{
+    position: absolute;
+    bottom: 10%;
+}
+
+.discount,
+.sostenible{
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+}
+
+.discount{
+    background-color: red;
+    margin: 1%;
+}
+
+.sostenible{
+    background-color: green;
+    margin: 1%;
+}
+
+.heart {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    font-size: 3rem;
+}
+
+.heart:hover {
+    color: red;
+}
+
+/* images' changing */
+.item-image-hover {
+    display: none;
+}
+
+.item:hover .item-image {
+    display: none;
+}
