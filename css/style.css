@@ -140,3 +140,11 @@ main{
 .item:hover .item-image {
     display: none;
 }
+
+/* !footer */
+footer {
+    background-color: #1A1A1A;
+    color: white;
+    padding: 20px 0;
+}
+
